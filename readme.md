@@ -42,7 +42,12 @@ I have assumed that there’s many to many relationships between users<->groups.
 
 
 ### Others
-**[Link to complete documentation.](https://github.com/mobeendev/UMS/blob/master/public/assets/UMS%20Documentation.pdf)**
+**[Link to complete documentation.](https://github.com/mobeendev/UMS/blob/master/public/assets/UMS%20Doc.pdf)**
+
+Inside the documentation, you will find the instructions on how to set this project on your local machine.
+
+As it is a git project, you can either download it or clone the project.
+
 
 ## Profile Links
 
