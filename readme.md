@@ -41,6 +41,9 @@ I have assumed that there’s many to many relationships between users<->groups.
 ![ERD Diagram](https://github.com/mobeendev/UMS/blob/master/public/assets/UMS_ERD.jpg)
 
 
+### Others
+**[Link to complete documentation.](https://github.com/mobeendev/UMS/blob/master/public/assets/UMS%20Documentation.pdf)**
+
 ## Profile Links
 
 - **[LinkedIn](https://www.linkedin.com/in/mobeendev)**
