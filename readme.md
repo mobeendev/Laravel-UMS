@@ -32,13 +32,13 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 ### UML
 A domain model in problem solving and software engineering is a conceptual model of all the topics related to a specific problem. It describes various entities, their attributes, roles, and relationships, plus the constraints that govern the problem domain
 
-https://github.com/mobeendev/UMS/blob/master/public/assets/UMS_ERD.jpg
+![UML Diagram](https://github.com/mobeendev/UMS/blob/master/public/assets/UMS_ERD.jpg)
 
 ### ERD
 As this web application uses user and groups data, so for this task I have used relational database, to store and retrieve the data, figure below shows tables and relationships among the tables which are used for this application. 
 I have assumed that there’s many to many relationships between users<->groups. i.e. a user can be in multiple groups and a group can have many users
 
-https://github.com/mobeendev/UMS/blob/master/public/assets/UMS_ERD.jpg
+![ERD Diagram](https://github.com/mobeendev/UMS/blob/master/public/assets/UMS_ERD.jpg)
 
 
 ## Profile Links
