@@ -1,0 +1,99 @@
+{
+    "success": true,
+    "message": "Users retrieved successfully.",
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "id": 8,
+                "first_name": "Abdul",
+                "last_name": "Mobeen8",
+                "city": "Doha",
+                "gender": "male",
+                "created_at": "2019-04-02 18:11:37",
+                "updated_at": "2019-04-02 18:11:37",
+                "groups": [
+                    {
+                        "id": 8,
+                        "name": "SL-PHPBackend-V2",
+                        "created_at": "2019-04-06 10:42:42",
+                        "updated_at": "2019-04-06 10:42:42",
+                        "pivot": {
+                            "user_id": 8,
+                            "group_id": 8
+                        }
+                    },
+                    {
+                        "id": 9,
+                        "name": "SL-967",
+                        "created_at": "2019-04-06 10:42:47",
+                        "updated_at": "2019-04-06 10:42:47",
+                        "pivot": {
+                            "user_id": 8,
+                            "group_id": 9
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "first_name": "sdfs",
+                "last_name": "asdfsdf",
+                "city": "sdfsdf",
+                "gender": "female",
+                "created_at": "2019-04-04 18:37:04",
+                "updated_at": "2019-04-04 18:37:04",
+                "groups": []
+            },
+            {
+                "id": 11,
+                "first_name": "Abdul1",
+                "last_name": "Mobeen",
+                "city": "Doha",
+                "gender": "male",
+                "created_at": "2019-04-05 13:32:48",
+                "updated_at": "2019-04-05 13:32:48",
+                "groups": [
+                    {
+                        "id": 8,
+                        "name": "SL-PHPBackend-V2",
+                        "created_at": "2019-04-06 10:42:42",
+                        "updated_at": "2019-04-06 10:42:42",
+                        "pivot": {
+                            "user_id": 11,
+                            "group_id": 8
+                        }
+                    }
+                ]
+            },
+            {
+                "id": 13,
+                "first_name": "Abdul345",
+                "last_name": "Mobeen",
+                "city": "Doha",
+                "gender": "male",
+                "created_at": "2019-04-05 13:39:47",
+                "updated_at": "2019-04-05 13:39:47",
+                "groups": []
+            },
+            {
+                "id": 14,
+                "first_name": "Abdul",
+                "last_name": "Mobeen",
+                "city": "Doha",
+                "gender": "male",
+                "created_at": "2019-04-05 13:40:08",
+                "updated_at": "2019-04-05 13:40:08",
+                "groups": []
+            }
+        ],
+        "from": 1,
+        "last_page": 2,
+        "next_page_url": "http://localhost/ums/public/api/users?page=2",
+        "path": "http://localhost/ums/public/api/users",
+        "per_page": 5,
+        "prev_page_url": null,
+        "to": 5,
+        "total": 6
+    }
+}

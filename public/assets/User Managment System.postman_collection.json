@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "a30567ba-ac2b-4cf8-9338-722fa72353f4",
+		"name": "User Managment System",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/ums/public/api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin1@admin.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "lkjlkj",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/ums/public/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ums",
+						"public",
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ums/public/api/auth/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "mobeen@admin.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "12345678",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "mobeen",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/ums/public/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ums",
+						"public",
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ums/public/api/auth/login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "admin1@admin.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "lkjlkj",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/ums/public/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ums",
+						"public",
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ums/public/api/users?page=1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "page",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/ums/public/api/users?page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ums",
+						"public",
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/ums/public/api/groups?page=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/ums/public/api/groups?page=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"ums",
+						"public",
+						"api",
+						"groups"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
